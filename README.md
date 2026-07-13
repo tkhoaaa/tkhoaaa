@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-portfolio-votienkhoa.online-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://www.portfolio-votienkhoa.online/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-portfolio--vtk.vercel.app-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://www.portfolio-votienkhoa.online/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-vo--tien--khoa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vo-tien-khoa)
 [![Email](https://img.shields.io/badge/Email-votienkhoa111%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:votienkhoa111@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Ho%20Chi%20Minh%2C%20VN-10b981?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/tkhoaaa)
