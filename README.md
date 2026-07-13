@@ -4,7 +4,7 @@
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-portfolio--vtk.vercel.app-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://portfolio-vtk.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-portfolio--vtk.vercel.app-0ea5e9?style=for-the-badge&logo=vercel&logoColor=white)](https://www.portfolio-votienkhoa.online/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-vo--tien--khoa-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/vo-tien-khoa)
 [![Email](https://img.shields.io/badge/Email-votienkhoa111%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:votienkhoa111@gmail.com)
 [![Location](https://img.shields.io/badge/Location-Ho%20Chi%20Minh%2C%20VN-10b981?style=for-the-badge&logo=googlemaps&logoColor=white)](https://github.com/tkhoaaa)
@@ -24,7 +24,7 @@
 
 ## 👋 About me
 
-I'm **Võ Tiến Khoa** — a fullstack developer based in **Ho Chi Minh City**, focused on clean UI, solid APIs, and products that go beyond demos.
+My name is **Võ Tiến Khoa** — a fullstack developer based in **Ho Chi Minh City**, focused on clean UI, solid APIs, and products that go beyond demos.
 
 - 🎓 **HUTECH** — Information Technology / Software Engineering (2022 – 2026)
 - 💼 Intern experience: **Frontend** (Ngoc Thien Long) · **Fullstack / AWS** (Amplify, Lambda, API Gateway)
@@ -120,7 +120,7 @@ I'm **Võ Tiến Khoa** — a fullstack developer based in **Ho Chi Minh City**,
 
 | Project | What it is | Stack |
 |--------|------------|--------|
-| [**portfolio-vtk**](https://portfolio-vtk.vercel.app/) | Personal portfolio (VI/EN) | React · TypeScript · Tailwind · Vite |
+| [**portfolio-vtk**](https://www.portfolio-votienkhoa.online/) | Personal portfolio (VI/EN) | React · TypeScript · Tailwind · Vite |
 | **API-Proxy** | OpenAI-compatible streaming edge proxy | Cloudflare Workers · Hono · TypeScript |
 | **Chat Realtime** | Instagram-style messaging web app | React · Node · Socket.IO · MySQL |
 | **Agriplanner** | Smart agriculture planning platform | Java Spring Boot · HTML/JS · SQL |
