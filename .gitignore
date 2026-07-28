@@ -1,0 +1,6 @@
+# Python
+__pycache__/
+*.pyc
+
+# Local-only source photo for the portrait (kept private; art lives in config.py)
+assets/AnhCV3x4.jpg
