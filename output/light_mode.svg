@@ -7,11 +7,11 @@
 <circle cx="62" cy="18" r="6" fill="#3fb950"/>
 <text x="270.0" y="23" text-anchor="middle" font-size="13" fill="#57606a">tkhoaaa@github — live</text>
 <text class="row" x="26" y="62" font-size="15" style="animation-delay:0.35s"><tspan fill="#1a7f37">$ neofetch --github</tspan></text>
-<text class="row" x="26" y="89" font-size="15" style="animation-delay:1.10s"><tspan fill="#9a6700">Repos</tspan><tspan fill="#afb8c1"> ..... </tspan><tspan fill="#0969da">32</tspan></text>
-<text class="row" x="26" y="116" font-size="15" style="animation-delay:1.85s"><tspan fill="#9a6700">Commits</tspan><tspan fill="#afb8c1"> ... </tspan><tspan fill="#0969da">1,240</tspan></text>
-<text class="row" x="26" y="143" font-size="15" style="animation-delay:2.60s"><tspan fill="#9a6700">Stars</tspan><tspan fill="#afb8c1"> ..... </tspan><tspan fill="#0969da">27</tspan></text>
-<text class="row" x="26" y="170" font-size="15" style="animation-delay:3.35s"><tspan fill="#9a6700">Followers</tspan><tspan fill="#afb8c1"> . </tspan><tspan fill="#0969da">41</tspan></text>
-<text class="row" x="26" y="197" font-size="15" style="animation-delay:4.10s"><tspan fill="#9a6700">Lines of Code</tspan><tspan fill="#afb8c1"> . </tspan><tspan fill="#1a7f37">+312,530</tspan><tspan fill="#57606a"> / </tspan><tspan fill="#cf222e">-98,120</tspan></text>
+<text class="row" x="26" y="89" font-size="15" style="animation-delay:1.10s"><tspan fill="#9a6700">Repos</tspan><tspan fill="#afb8c1"> ..... </tspan><tspan fill="#0969da">3</tspan></text>
+<text class="row" x="26" y="116" font-size="15" style="animation-delay:1.85s"><tspan fill="#9a6700">Commits</tspan><tspan fill="#afb8c1"> ... </tspan><tspan fill="#0969da">33</tspan></text>
+<text class="row" x="26" y="143" font-size="15" style="animation-delay:2.60s"><tspan fill="#9a6700">Stars</tspan><tspan fill="#afb8c1"> ..... </tspan><tspan fill="#0969da">1</tspan></text>
+<text class="row" x="26" y="170" font-size="15" style="animation-delay:3.35s"><tspan fill="#9a6700">Followers</tspan><tspan fill="#afb8c1"> . </tspan><tspan fill="#0969da">0</tspan></text>
+<text class="row" x="26" y="197" font-size="15" style="animation-delay:4.10s"><tspan fill="#9a6700">Lines of Code</tspan><tspan fill="#afb8c1"> . </tspan><tspan fill="#1a7f37">+109,708</tspan><tspan fill="#57606a"> / </tspan><tspan fill="#cf222e">-92,830</tspan></text>
 <text class="row" x="26" y="224" font-size="15" style="animation-delay:4.85s"><tspan fill="#9a6700">Updated</tspan><tspan fill="#afb8c1"> ... </tspan><tspan fill="#57606a">2026-07-28</tspan></text>
 <rect class="caret" x="220" y="212" width="9" height="16" fill="#0969da" style="animation-delay:5.60s"/>
 </svg>
