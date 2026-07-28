@@ -37,10 +37,10 @@ a{cursor:pointer}
 <tspan x="464" dy="18"><tspan class="label">Portfolio</tspan><tspan class="dots"> ...................... </tspan><a xlink:href="https://www.portfolio-votienkhoa.online/" target="_blank" rel="noopener"><tspan class="value">portfolio-votienkhoa.online</tspan></a></tspan>
 <tspan x="464" dy="18"><tspan class="dim"> </tspan></tspan>
 <tspan x="464" dy="18"><tspan class="dim">─ </tspan><tspan class="accent">GitHub Stats</tspan><tspan class="dim"> ─────────────────────────────────────────────</tspan></tspan>
-<tspan x="464" dy="18"><tspan class="label">Repos</tspan><tspan class="dots"> .................................................. </tspan><tspan class="value">30+</tspan></tspan>
-<tspan x="464" dy="18"><tspan class="label">Commits</tspan><tspan class="dots"> .............................................. </tspan><tspan class="value">1.2k+</tspan></tspan>
-<tspan x="464" dy="18"><tspan class="label">Stars</tspan><tspan class="dots"> .................................................. </tspan><tspan class="value">25+</tspan></tspan>
-<tspan x="464" dy="18"><tspan class="label">Followers</tspan><tspan class="dots"> .............................................. </tspan><tspan class="value">40+</tspan></tspan>
-<tspan x="464" dy="18"><tspan class="label">Lines of Code</tspan><tspan class="dots"> ................................ </tspan><tspan class="add">+520k</tspan><tspan class="dim"> / </tspan><tspan class="del">-208k</tspan></tspan>
+<tspan x="464" dy="18"><tspan class="label">Repos</tspan><tspan class="dots"> .................................................... </tspan><tspan class="value">3</tspan></tspan>
+<tspan x="464" dy="18"><tspan class="label">Commits</tspan><tspan class="dots"> ................................................. </tspan><tspan class="value">21</tspan></tspan>
+<tspan x="464" dy="18"><tspan class="label">Stars</tspan><tspan class="dots"> .................................................... </tspan><tspan class="value">1</tspan></tspan>
+<tspan x="464" dy="18"><tspan class="label">Followers</tspan><tspan class="dots"> ................................................ </tspan><tspan class="value">0</tspan></tspan>
+<tspan x="464" dy="18"><tspan class="label">Lines of Code</tspan><tspan class="dots"> .............................. </tspan><tspan class="add">+18.7k</tspan><tspan class="dim"> / </tspan><tspan class="del">-89.4k</tspan></tspan>
 </text>
 </svg>
