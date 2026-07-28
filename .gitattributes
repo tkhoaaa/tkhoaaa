@@ -1,0 +1,5 @@
+# Generated assets are rewritten by scripts/generate.py on Linux CI.
+# Pin them to LF so Windows checkouts don't create spurious CRLF diffs.
+*.svg                        text eol=lf
+assets/braille_art.txt       text eol=lf
+assets/braille_art_light.txt text eol=lf

@@ -1,0 +1,6 @@
+# Extra dependencies for scripts/gen_ascii.py (local portrait regeneration only —
+# NOT needed by CI, which reads the committed assets/braille_art*.txt).
+-r requirements.txt
+Pillow>=10.0
+numpy>=1.26
+# rembg          # optional: cleaner hair-edge cutout (heavy; manual flood-fill is the fallback)

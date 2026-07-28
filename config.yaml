@@ -1,0 +1,80 @@
+# Profile card content + theme palettes.
+# Edit here, then run:  python scripts/generate.py
+# (Static text only — live numbers come from the GitHub API at render time.)
+
+username: votienkhoa        # shown in the header:  votienkhoa@github
+host: github
+gh_login: tkhoaaa           # real GitHub login used for the GraphQL API
+birthday: [2004, 12, 6]     # Uptime is computed live from this
+
+portrait:
+  art_dark: assets/braille_art.txt        # dots = highlights (light ink on dark)
+  art_light: assets/braille_art_light.txt # tone-inverted for the light card
+  dot: 2.3                                 # px per braille dot
+
+# --- info panel (label, value) -------------------------------------------- #
+system:
+  - [OS, "Windows 11 · Linux (WSL2)"]
+  - [Uptime, "{uptime}"]                   # replaced from birthday at render time
+  - [Host, "HUTECH · HCMC, Vietnam"]
+  - [Kernel, "Fresher Fullstack Developer"]
+  - [IDE, "VS Code · Cursor"]
+
+languages:
+  - [Languages.Programming, "TypeScript · Java · Dart · SQL"]
+  - [Languages.Computer, "HTML · CSS · Bash · JSON"]
+  - [Languages.Real, "Vietnamese (native) · English"]
+
+hobbies:
+  - [Hobbies.Software, "web apps · open-source · tooling"]
+  - [Interests.Software, "landing pages · portfolio · e-commerce"]
+
+# (label, value, href) -> value is wrapped in <a xlink:href>
+contact:
+  - [Email, "votienkhoa111@gmail.com", "mailto:votienkhoa111@gmail.com"]
+  - [LinkedIn, "in/vo-tien-khoa", "https://www.linkedin.com/in/vo-tien-khoa"]
+  - [Facebook, "fb.com/khoa.votien.16", "https://www.facebook.com/khoa.votien.16"]
+  - [Portfolio, "portfolio-votienkhoa.online", "https://www.portfolio-votienkhoa.online/"]
+
+# (label, key) -> key resolved from live stats, else the defaults below
+stats:
+  - [Repos, repos]
+  - [Commits, commits]
+  - [Stars, stars]
+  - [Followers, followers]
+  - [Lines of Code, loc]     # rendered as  +added / -deleted  (green / red)
+
+stats_default:
+  repos: "30+"
+  commits: "1.2k+"
+  stars: "25+"
+  followers: "40+"
+  loc_add: "+520k"
+  loc_del: "-208k"
+
+# --- theme palettes (become CSS classes at the top of each SVG) ------------ #
+palette:
+  dark:
+    bg: "#0d1117"
+    stroke: "#30363d"
+    art: "#c9d1d9"
+    title: "#e6edf3"
+    label: "#58a6ff"
+    value: "#c9d1d9"
+    dots: "#6e7681"
+    accent: "#58a6ff"
+    dim: "#8b949e"
+    add: "#3fb950"
+    del: "#f85149"
+  light:
+    bg: "#ffffff"
+    stroke: "#d0d7de"
+    art: "#24292f"
+    title: "#1f2328"
+    label: "#0969da"
+    value: "#1f2328"
+    dots: "#afb8c1"
+    accent: "#0969da"
+    dim: "#59636e"
+    add: "#1a7f37"
+    del: "#cf222e"

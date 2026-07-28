@@ -2,5 +2,11 @@
 __pycache__/
 *.pyc
 
-# Local-only source photo for the portrait (kept private; art lives in config.py)
+# Private source photo + derived intermediate (regenerate with scripts/gen_ascii.py).
+# The shipped portrait lives in assets/braille_art*.txt, which ARE committed.
 assets/AnhCV3x4.jpg
+assets/portrait_clean.png
+assets/ascii_art.txt
+
+# Local preview / review renders — not shipped.
+previews/

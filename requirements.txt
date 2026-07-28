@@ -1,0 +1,2 @@
+# Runtime dependency for scripts/generate.py (used by CI to render the card).
+PyYAML>=6.0

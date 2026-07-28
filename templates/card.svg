@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="__W__" height="__H__" viewBox="0 0 __W__ __H__" font-size="__FS__px" role="img" aria-label="__ARIA__">
+<style>
+text{font-family:__FONT__;dominant-baseline:text-before-edge}
+.bg{fill:__BG__;stroke:__STROKE__}
+.art{fill:__ART__}
+.title{fill:__TITLE__;font-weight:600}
+.label{fill:__LABEL__}
+.value{fill:__VALUE__}
+.dots{fill:__DOTS__}
+.accent{fill:__ACCENT__}
+.dim{fill:__DIM__}
+.add{fill:__ADD__}
+.del{fill:__DEL__}
+a{cursor:pointer}
+</style>
+<rect class="bg" x="0.5" y="0.5" width="__W1__" height="__H1__" rx="8"/>
+<path class="art" d="__ART_D__"/>
+<text xml:space="preserve" x="__INFO_X__" y="__TOP__">
+__INFO__
+</text>
+</svg>
