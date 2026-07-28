@@ -306,7 +306,8 @@ def render(theme, c, rows, info_cols, layout):
         "__W__": layout["W"], "__H__": layout["H"], "__W1__": layout["W"] - 1,
         "__H1__": layout["H"] - 1, "__FS__": FS, "__FONT__": FONT,
         "__ARIA__": esc(f'{c["username"]}@{c["host"]} — {c["system"][3][1]}'),
-        "__INFO_X__": layout["info_x"], "__TOP__": TOP, "__ART_D__": art_d, "__INFO__": info,
+        "__INFO_X__": layout["info_x"], "__INFO_Y__": layout["info_y"],
+        "__ART_D__": art_d, "__INFO__": info,
         "__BG__": P["bg"], "__STROKE__": P["stroke"], "__ART__": P["art"], "__TITLE__": P["title"],
         "__LABEL__": P["label"], "__VALUE__": P["value"], "__DOTS__": P["dots"],
         "__ACCENT__": P["accent"], "__DIM__": P["dim"], "__ADD__": P["add"], "__DEL__": P["del"],
@@ -324,15 +325,19 @@ def main():
     kv = [(a, b) for k, a, b, _ in rows if k in ("kv", "stat", "loc", "link")]
     info_cols = max(len(a) + len(b) for a, b in kv) + 4
 
-    # measure the portrait to size + vertically centre it against the info block
+    # measure the portrait, then vertically centre the shorter column against
+    # the taller one (portrait can be head-only or a full bust)
     _, art_w, art_h = art_path(c["portrait"]["art_dark"], 0, 0, c["portrait"]["dot"])
     info_h = len(rows) * LINE
+    half = abs(info_h - art_h) / 2
+    art_y = TOP + (0 if art_h >= info_h else half)
+    info_y = TOP + (half if art_h >= info_h else 0)
     art_x = PAD
-    art_y = TOP + max(0, (info_h - art_h) / 2)
     info_x = int(PAD + art_w + GAP)
     W = int(info_x + info_cols * CHARW + PAD)
-    H = int(TOP + max(art_y - TOP + art_h, info_h) + PAD)
-    layout = dict(art_x=art_x, art_y=round(art_y, 1), info_x=info_x, W=W, H=H)
+    H = int(TOP + max(art_h, info_h) + PAD)
+    layout = dict(art_x=art_x, art_y=round(art_y, 1), info_x=info_x,
+                  info_y=round(info_y, 1), W=W, H=H)
 
     for theme in ("dark", "light"):
         svg = render(theme, c, rows, info_cols, layout)

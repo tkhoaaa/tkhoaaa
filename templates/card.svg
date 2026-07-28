@@ -15,7 +15,7 @@ a{cursor:pointer}
 </style>
 <rect class="bg" x="0.5" y="0.5" width="__W1__" height="__H1__" rx="8"/>
 <path class="art" d="__ART_D__"/>
-<text xml:space="preserve" x="__INFO_X__" y="__TOP__">
+<text xml:space="preserve" x="__INFO_X__" y="__INFO_Y__">
 __INFO__
 </text>
 </svg>
